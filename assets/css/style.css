@@ -1,0 +1,1210 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------------------------------------------
+Projet 3 - Clément Sentein
+-----------------------------------------------------------------------------------
+ */
+.animation-delay-500ms {
+    animation: FromBottomToTop 0.5s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+.animation-delay-1000ms {
+    animation: FromBottomToTop 1s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+.animation-delay-1500ms {
+    animation: FromBottomToTop 1.5s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+.animation-delay-2000ms {
+    animation: FromBottomToTop 2s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+.animation-delay-2500ms {
+    animation: FromBottomToTop 2.5s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+.animation-delay-3000ms {
+    animation: FromBottomToTop 3s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+.animation-delay-3500ms {
+    animation: FromBottomToTop 3.5s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+.animation-delay-4000ms {
+    animation: FromBottomToTop 4s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+.animation-delay-4500ms {
+    animation: FromBottomToTop 4.5s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+.animation-delay-5000ms {
+    animation: FromBottomToTop 5s !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+@keyframes FromBottomToTop {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.divsectionplat:hover .checkboxdivsectionplat {
+    animation: Rotation 550ms !important;
+    animation-fill-mode: both !important;
+    position: relative !important;
+}
+
+@keyframes Rotation {
+    0% {
+        transform: Rotate(0deg);
+    }
+
+    100% {
+        transform: Rotate(360deg);
+    }
+}
+
+.headerdiv {
+    max-width: 40%;
+    object-fit: contain;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 100% !important;
+}
+
+@media (max-width:640px) {
+    .headerlogo {
+        max-width: 40% !important;
+    }
+}
+
+.headerlogo {
+    max-width: 45%;
+}
+
+@media (min-width:1250px) {
+    .sectionplat {
+        display: flex;
+        max-width: 90%;
+        justify-content: center !important;
+        margin: auto !important;
+    }
+
+    .divsectionplat {
+        text-align: left;
+        position: relative;
+        justify-content: flex-end;
+        align-items: flex-end;
+        border-radius: 7px;
+        display: flex;
+        margin: auto;
+        left: 0;
+        right: 0;
+        min-width: 25% !important;
+        max-width: 25% !important;
+        box-shadow: 0px 0px 5px 2px #D4D4D4;
+        height: 60px !important;
+        background-position-y: -19px;
+        background-position-x: -26px;
+        overflow: hidden;
+        background-color: #fff;
+        margin: 0px 20px !important;
+    }
+
+    .plat,
+    .traithorizontal {
+        margin-left: 14% !important;
+        padding: 0px !important;
+    }
+
+    .mobileh2shrikhand {
+        padding-left: 14% !important;
+    }
+}
+
+@media (min-width:460px) and (max-width:575px) {
+    .checkboxdiv {
+        margin-right: -14% !important;
+    }
+}
+
+@media (min-width:575px) and (max-width:730px) {
+    .checkboxdiv {
+        margin-right: -11% !important;
+    }
+}
+
+@media (min-width:730px) and (max-width:900px) {
+    .checkboxdiv {
+        margin-right: -9% !important;
+    }
+}
+
+@media (min-width:900px) and (max-width:1060px) {
+    .checkboxdiv {
+        margin-right: -7.5% !important;
+    }
+}
+
+@media (min-width:1060px) and (max-width:1250px) {
+    .checkboxdiv {
+        margin-right: -6% !important;
+    }
+}
+
+@media (min-width:1250px) and (max-width:1470px) {
+    .checkboxdiv {
+        margin-right: -23% !important;
+    }
+}
+
+@media (min-width:1470px) and (max-width:1700px) {
+    .checkboxdiv {
+        margin-right: -19% !important;
+    }
+}
+
+@media (min-width:1880px) {
+    .checkboxdiv {
+        margin-right: -14.5% !important;
+    }
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 2px #D4D4D4;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.body {
+    margin: 0px !important;
+}
+
+.localisationmobile {
+    background-color: #EAEAEA;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    height: 50px;
+    margin-top: 70px;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.fas.fa-map-marker-alt {
+    margin-top: -3px;
+    margin-right: 15px;
+}
+
+.positionlocalisation {
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.reservationmobile {
+    background-color: #F6F6F6;
+    padding: 20px 40px;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.body * {
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.mobileh2 {
+    padding: 0px 20px;
+    font-size: 24px;
+}
+
+@media (min-width:640px) {
+    .mobileh2 {
+        padding: 0px 50px !important;
+    }
+}
+
+.mobilep {
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.mobilep2 {
+    letter-spacing: 0.1px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.reservationmobilea {
+    padding: 15px 6px;
+    background: linear-gradient(#DF6FDA, #A15ADC);
+    font-size: 16px;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px #D4D4D4;
+    text-align: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    display: block;
+    max-width: 207px;
+    max-height: 47px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    transition-duration: 200ms;
+}
+
+.reservationmobilea:hover {
+    background: linear-gradient(#E08BDF, #AD7BDB);
+}
+
+.scale {
+    transition-duration: 200ms;
+}
+
+.scale:hover {
+    transform: scale(0.9);
+}
+
+@media (min-width:900px) {
+    .footermobile {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .footeri {
+        font-weight: 900;
+        align-items: center;
+        vertical-align: middle;
+        top: 0;
+        bottom: 0;
+        justify-content: center;
+        display: flex;
+    }
+
+    .fa,
+    .fas {
+        display: flex !important;
+    }
+
+    .thirdandfourthfooterlink {
+        margin: 0px 0px 0px 32px !important;
+    }
+
+    .footeri {
+        margin-left: 40px !important;
+    }
+
+    .footerlogomobile {
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        margin: auto 0;
+    }
+}
+
+.fonctionnementmobile {
+    width: 80%;
+    height: 70px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    left: 0;
+    right: 0;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    vertical-align: middle;
+    box-shadow: 0px 2px 8px 2px #D4D4D4;
+}
+
+.h2mobile {
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 902px;
+}
+
+.h2mobile2 {
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1150px;
+}
+
+.fonctionnementcomputer {
+    height: 70px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    left: 0;
+    right: 0;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    vertical-align: middle;
+    box-shadow: 0px 2px 8px 2px #D4D4D4;
+}
+
+.sousdivfonctionnementmobile {
+    padding: 3px;
+    border-radius: 100%;
+    background-color: #9356DC;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    top: 0;
+    bottom: 0;
+    max-height: 20px;
+    min-width: 20px;
+    display: flex;
+    margin-left: -12px;
+}
+
+.sousdivfonctionnementcomputer {
+    border-radius: 100%;
+    background-color: #9356DC;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    top: 0;
+    bottom: 0;
+    max-height: 20px;
+    min-width: 20px;
+    display: flex;
+    margin-left: -12px;
+}
+
+.margin {
+    margin: 0px 20px;
+}
+
+.roundnumber {
+    display: contents;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ifonctionnement {
+    padding: 0px 20px;
+    font-size: 22px;
+    color: #7E7E7E;
+}
+
+.textdecorationnone {
+    text-decoration: none;
+}
+
+.fonctionnementp {
+    color: #000;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: left;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+
+.fonctionnementcomputerp {
+    color: #000;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: left;
+    padding: 0px 25px 0px 0px;
+    font-weight: 600;
+}
+
+.divrestaurants {
+    background-color: #F6F6F6;
+    padding: 35px 0px;
+}
+
+.divrestaurant {
+    box-shadow: 0px 0px 10px 5px #EFEFEF;
+    margin: 0px 30px 0px 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 8px
+}
+
+.imgdivrestaurant1 {
+    height: 11rem;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    max-width: inherit;
+    border-radius: 12px 12px 0px 0px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    display: flex;
+    right: 0;
+    justify-content: right;
+    margin-right: 0;
+    background-position-y: 90%;
+}
+
+.imgdivrestaurant2 {
+    height: 11rem;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    max-width: inherit;
+    border-radius: 12px 12px 0px 0px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    display: flex;
+    right: 0;
+    justify-content: right;
+    margin-right: 0;
+    background-position-y: -50px;
+}
+
+.imgdivrestaurant3 {
+    height: 11rem;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    max-width: inherit;
+    border-radius: 12px 12px 0px 0px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    display: flex;
+    right: 0;
+    justify-content: right;
+    margin-right: 0;
+    background-position-y: 88%;
+}
+
+.imgdivrestaurant4 {
+    height: 11rem;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    max-width: inherit;
+    border-radius: 12px 12px 0px 0px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    display: flex;
+    right: 0;
+    justify-content: right;
+    margin-right: 0;
+    background-position-y: 100%;
+}
+
+.newdivrestaurant {
+    justify-content: center;
+    padding: 6px;
+    border-radius: 3px;
+    color: #008766;
+    background-color: #99E2D0;
+    width: 20%;
+    left: 0;
+    right: 0;
+    display: flex;
+    max-height: 10%;
+    margin-left: 72%;
+    font-weight: 500;
+    text-align: center;
+    font-size: 15px;
+    max-width: 70px;
+    min-width: 70px;
+}
+
+.newdivrestaurantmobile {
+    /*
+    justify-content: center;
+    padding: 6px;
+    border-radius: 3px;
+    color: #008766;
+    background-color: #99E2D0;
+    width: 20%;
+    left: 0;
+    right: 0;
+    display: flex;
+    max-height: 10%; 
+    margin-left: 77%;
+    font-weight: 500;
+    text-align: center;
+    font-size: 15px;
+    max-width:70px;
+    min-width:70px;
+    */
+    justify-content: center;
+    padding: 6px;
+    border-radius: 3px;
+    color: #008766;
+    background-color: #99E2D0;
+    display: flex;
+    max-height: 10%;
+    margin-left: auto;
+    font-weight: 500;
+    text-align: center;
+    font-size: 15px;
+    max-width: 70px;
+    min-width: 70px;
+    margin-right: 20px;
+}
+
+.pdivrestaurant1 {
+    color: #000;
+    margin: 10px 5px 2px 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pdivrestaurant2 {
+    color: #000;
+    font-size: 14px;
+    margin: 5px 5px 10px 5px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: -4px;
+    margin-top: -10px;
+    padding: 0px 0px 10px 10px;
+}
+
+.pdivrestaurant2secondcolumn {
+    color: #000;
+    font-size: 14px;
+    margin: 5px 5px 10px 5px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: -4px;
+}
+
+.heartcolumn {
+    margin-left: 50%;
+    margin-top: 15px;
+    font-size: 24px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 10px;
+    color: #000;
+    min-width: 20px;
+}
+
+.heartcolumn2 {
+    margin-left: 50%;
+    margin-top: 15px;
+    font-size: 24px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.secondcolumnfirsti {
+    right: 0;
+    justify-content: right;
+    display: flex;
+}
+
+.secondcolumnsecondi {
+    margin-top: -10px;
+    margin-right: -10px;
+    padding-left: 8px;
+}
+
+.twoi {
+    right: 0;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: 5px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.sousdivrestaurant {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+}
+
+.footermobile {
+    display: block;
+    background-color: #353535;
+    padding: 30px 60px;
+    line-height: 30px;
+}
+
+.footerlogomobile {
+    max-height: 20px;
+}
+
+.firstandsecondfooterlink {
+    font-weight: 500;
+    color: #fff;
+}
+
+.thirdandfourthfooterlink {
+    font-weight: 300;
+    color: #fff;
+}
+
+.svglog {
+    fill: #fff !important;
+}
+
+.footeri {
+    color: #fff;
+    min-width: 17px !important;
+    max-width: 17px !important;
+    font-size: 14px;
+}
+
+.heartcolumn2 {
+    content: url("assets/images/heart/heart.svg");
+}
+
+.test {
+    content: url("assets/images/heart/heart.png");
+}
+
+.troissectionsfonctionnementcomputer {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media (max-width:849px) {
+    .troissectionsfonctionnementcomputer {
+        display: none;
+    }
+}
+
+@media (min-width:850px) {
+    .troissectionsfonctionnementmobile {
+        display: none;
+    }
+}
+
+@media (min-width:1250px) {
+    .sectionrestaurant {
+        display: flex;
+        max-width: 80%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        justify-content: center;
+    }
+}
+
+@media (min-width:640px) and (max-width:1250px) {
+    .sectionrestauranttablet {
+        display: flex !important;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+}
+
+@media (max-width:640px) {
+    .sectionrestauranttablet {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+@media (min-width:1250px) {
+    .sectionrestauranttablet {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+@media (min-width:640px) and (max-width:1250px) {
+    .sectionrestaurant {
+        display: none !important;
+    }
+}
+
+.divrestaurant {
+    min-width: 20%;
+    padding: 0px !important;
+    margin: 0px 15px;
+    min-width: 275px;
+}
+
+.newdivrestaurant {
+    margin-left: 67% !important;
+}
+
+.pdivrestaurant2 {
+    margin-bottom: 10px;
+}
+
+.heart-path {
+    transition: 140ms;
+    font-size: 20px;
+    margin: auto;
+    stroke-width: 40px;
+    fill: #fff;
+    stroke: BLACK;
+    stroke-width: 25px;
+    stroke-opacity: 1;
+}
+
+.backgroundgrey {
+    fill: #F6F6F6 !important;
+}
+
+.heartcolumn {
+    padding: 10px;
+    overflow: visible;
+    max-width: 16px;
+    min-width: 16px;
+}
+
+.heart-path:active {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:checked {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:default {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:disabled {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:focus {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:root {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path::selection {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:target {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:valid {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:visited {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:indeterminate {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+.heart-path:valid {
+    fill: #BF64DB !important;
+    stroke: #BF64DB !important;
+}
+
+/* À la française */
+.commandermobilea {
+    padding: 15px 2px;
+    background: linear-gradient(#DF6FDA, #A15ADC);
+    font-size: 16px;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px #D4D4D4;
+    text-align: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    display: block;
+    max-width: 180px;
+    max-height: 47px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    transition-duration: 200ms;
+}
+
+.commandermobilea:hover {
+    background: linear-gradient(#FF79DA, #AD7BDB);
+}
+
+.headerreturn {
+    position: absolute;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    display: flex !important;
+    left: 0;
+    justify-content: left;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #353535;
+}
+
+.banneralafrancaise {
+    width: 100%;
+    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0px;
+}
+
+.bannerlanoteenchantee {
+    width: 100%;
+    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0px;
+}
+
+.bannerlapalettedugout {
+    width: 100%;
+    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0px;
+}
+
+@media (min-width:1000px) {
+
+    .bannerlapalettedugout,
+    .bannerlanoteenchantee,
+    .banneralafrancaise,
+    .bannerledelicedessens {
+        padding: 220px 0px !important;
+    }
+}
+
+.bannerledelicedessens {
+    width: 100%;
+    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0px;
+}
+
+.alafrancaise {
+    border-radius: 35px 35px 0px 0px;
+    background-color: #F6F6F6;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.displayflex {
+    display: flex;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    vertical-align: middle;
+}
+
+.fontweight {
+    font-size: 22px !important;
+}
+
+.mobileh2shrikhand {
+    padding: 0px 20px;
+    font-size: 28px;
+    font-family: shrikhand;
+    font-weight: 500;
+}
+
+.positionleft {
+    left: 0;
+    justify-content: left;
+    margin: auto;
+    display: flex;
+}
+
+.padding {
+    padding: 30px 15px;
+    margin-left: initial !important;
+}
+
+.horizontalpadding {
+    padding: 0px 15px;
+}
+
+.plat {
+    font-family: Roboto;
+    font-size: 17px !important;
+}
+
+.headerspacer {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.headerpage {
+    height: 70px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 2px #D4D4D4;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    margin-bottom: 70px;
+    z-index: 10;
+}
+
+.traithorizontal {
+    border-bottom: 3px solid #99E2D0;
+    margin: 3px 356px 0px 16px;
+    display: flex;
+    left: 0;
+    justify-content: left;
+    min-width: 42px !important;
+    max-width: 42px !important;
+}
+
+.plats {
+    max-width: 95%;
+    min-width: 95%;
+    min-height: 60px;
+    max-height: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 2px #D4D4D4;
+    left: 0;
+    margin-left: auto;
+    justify-content: left;
+    line-height: 10px;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    vertical-align: middle;
+    display: table;
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+}
+
+.testab {
+    width: 50px !important;
+    min-width: 50px !important;
+    max-width: 50px !important;
+    background-color: red !important;
+}
+
+.sousdivsectionplat {
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    justify-content: space-evenly;
+}
+
+.divsectionplat {
+    text-align: left;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 7px;
+    display: flex;
+    margin: auto;
+    left: 0;
+    right: 0;
+    min-width: 95%;
+    ;
+    max-width: 95%;
+    box-shadow: 0px 0px 5px 2px #D4D4D4;
+    height: 60px;
+    background-position-y: -19px;
+    background-position-x: -26px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.h3divsectionplat {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pdivsectionplat {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pricedivsectionplat {
+    padding-bottom: 6px;
+    font-weight: 600;
+}
+
+.divsectionplat:hover .checkboxdiv {
+    margin-right: 0 !important;
+}
+
+.divsectionplat:hover .checkboxdiv {
+    margin-right: 0 !important;
+}
+
+.checkboxdiv {
+    transition-duration: 200ms;
+    padding: 0px 20px;
+    background-color: #99E2D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    right: 0%;
+    margin-right: -17%;
+    margin-left: 20px;
+}
+
+.checkboxdivsectionplat {
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.size {
+    min-width: 24px !important;
+    margin-top: -6px;
+}
+
+.strong {
+    font-weight: 500 !important;
+}
+
+.test12 {
+    position: relative;
+}
+
+.h2plats2 {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.pplats2 {
+    font-size: 14px;
+    text-decoration: none;
+    right: 0;
+    justify-content: right;
+    min-width: 110%;
+    font-weight: 400 !important;
+}
+
+.priceplats {
+    justify-content: left;
+    margin-right: auto;
+    margin-left: 42%;
+    text-align: right;
+    font-weight: 600;
+}
