@@ -311,6 +311,7 @@ Projet 3 - Clément Sentein
 
 .reservationmobilea:hover {
     background: linear-gradient(#E08BDF, #AD7BDB);
+    box-shadow: 0px 0px 5px 4px #D4D4D4 !important;
 }
 
 .scale {
@@ -834,62 +835,7 @@ Projet 3 - Clément Sentein
     min-width: 16px;
 }
 
-.heart-path:active {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:checked {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:default {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:disabled {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:focus {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:root {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path::selection {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:target {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:valid {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:visited {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:indeterminate {
-    fill: #BF64DB !important;
-    stroke: #BF64DB !important;
-}
-
-.heart-path:valid {
+.heart-path:hover {
     fill: #BF64DB !important;
     stroke: #BF64DB !important;
 }
@@ -1207,4 +1153,90 @@ Projet 3 - Clément Sentein
     margin-left: 42%;
     text-align: right;
     font-weight: 600;
+}
+
+.backgroundloader {
+    background-color: white !important;
+    z-index: 2 !important;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: -110px;
+    padding-bottom: 50px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    animation: disappearance 1600ms;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+.loader {
+    z-index: 1 !important;
+    position: fixed;
+    font-size: 60px;
+    animation: LoadingRotation 1600ms linear infinite;
+    animation-fill-mode: both;
+    color: #9356DC;
+}
+
+@keyframes LoadingRotation {
+    0% {
+        transform: rotate(100deg);
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(900deg);
+        opacity: 0;
+    }
+}
+
+@keyframes disappearance {
+    0% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes overflowhidden {
+    0% {
+        overflow: hidden;
+    }
+
+    99% {
+        overflow: hidden;
+    }
+
+    100% {
+        overflow: default;
+    }
+}
+
+.body {
+    animation: overflowhidden 1600ms;
+    animation-iteration-count: 1;
+    scrollbar-color: #fff !important;
 }
