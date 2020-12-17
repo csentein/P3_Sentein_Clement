@@ -227,7 +227,7 @@ Projet 3 - Clément Sentein
     margin: auto;
     justify-content: center;
     height: 50px;
-    margin-top: 11px;
+    margin-top: 70px;
     top: 0;
     bottom: 0;
     align-items: center;
@@ -1004,6 +1004,7 @@ Projet 3 - Clément Sentein
     margin-bottom: 70px;
 }
 
+/*
 .traithorizontal {
     border-bottom: 3px solid #99E2D0;
     margin: 3px 356px 0px 16px;
@@ -1196,7 +1197,7 @@ Projet 3 - Clément Sentein
     bottom: 0;
     animation: position-fixed-absolute 1600ms linear infinite;
     animation-iteration-count: 1;
-    position: inherit;
+    position: absolute;
 }
 
 @keyframes position-fixed-absolute {
@@ -1209,11 +1210,11 @@ Projet 3 - Clément Sentein
     }
 
     99% {
-        position: inherit;
+        position: absolute;
     }
 
     100% {
-        position: inherit;
+        position: absolute;
     }
 
 }
