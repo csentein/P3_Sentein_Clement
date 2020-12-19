@@ -213,6 +213,7 @@ Projet 3 - Clément Sentein
     position: fixed;
     top: 0;
     background-color: white;
+    z-index: 200;
 }
 
 .body {
@@ -506,7 +507,7 @@ Projet 3 - Clément Sentein
     border-radius: 12px 12px 0px 0px;
     background-position: center;
     background-size: cover;
-    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     display: flex;
     right: 0;
     justify-content: right;
@@ -523,7 +524,7 @@ Projet 3 - Clément Sentein
     border-radius: 12px 12px 0px 0px;
     background-position: center;
     background-size: cover;
-    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
     display: flex;
     right: 0;
     justify-content: right;
@@ -540,7 +541,7 @@ Projet 3 - Clément Sentein
     border-radius: 12px 12px 0px 0px;
     background-position: center;
     background-size: cover;
-    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
     display: flex;
     right: 0;
     justify-content: right;
@@ -557,7 +558,7 @@ Projet 3 - Clément Sentein
     border-radius: 12px 12px 0px 0px;
     background-position: center;
     background-size: cover;
-    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
     display: flex;
     right: 0;
     justify-content: right;
@@ -881,7 +882,7 @@ Projet 3 - Clément Sentein
 
 .banneralafrancaise {
     width: 100%;
-    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
     object-fit: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -891,7 +892,7 @@ Projet 3 - Clément Sentein
 
 .bannerlanoteenchantee {
     width: 100%;
-    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
     object-fit: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -901,7 +902,7 @@ Projet 3 - Clément Sentein
 
 .bannerlapalettedugout {
     width: 100%;
-    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     object-fit: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -921,7 +922,7 @@ Projet 3 - Clément Sentein
 
 .bannerledelicedessens {
     width: 100%;
-    background-image: url("file:///C:/Users/Clement Sentein/Desktop/OpenClassRooms/Developpeur Web/En cours/P3_Sentein_Clement/assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
     object-fit: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1304,4 +1305,12 @@ Projet 3 - Clément Sentein
 .appearance {
     animation: appearance 1600ms;
     animation-iteration-count: 1;
+}
+
+header {
+    z-index: 100;
+}
+
+.headerpage {
+    z-index: 50;
 }
