@@ -111,6 +111,7 @@ Projet 3 - Clément Sentein
 
 .headerlogo {
     max-width: 45%;
+    object-fit: contain;
 }
 
 @media (min-width:1250px) {
