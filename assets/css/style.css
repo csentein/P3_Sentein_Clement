@@ -261,7 +261,7 @@ Projet 3 - Clément Sentein
 }
 
 .body * {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
 }
 
