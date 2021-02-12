@@ -132,8 +132,6 @@ Projet 3 - Clément Sentein
         margin: auto;
         left: 0;
         right: 0;
-        min-width: 25% !important;
-        max-width: 25% !important;
         box-shadow: 0px 0px 5px 2px #D4D4D4;
         height: 60px !important;
         background-position-y: -19px;
@@ -141,6 +139,7 @@ Projet 3 - Clément Sentein
         overflow: hidden;
         background-color: #fff;
         margin: 0px 20px !important;
+        min-width: 360px !important;
     }
 
     .plat,
@@ -184,6 +183,7 @@ Projet 3 - Clément Sentein
     }
 }
 
+/*
 @media (min-width:1250px) and (max-width:1470px) {
     .checkboxdiv {
         margin-right: -23% !important;
@@ -199,6 +199,14 @@ Projet 3 - Clément Sentein
 @media (min-width:1880px) {
     .checkboxdiv {
         margin-right: -14.5% !important;
+    }
+}
+*/
+
+@media (min-width:1250px) {
+    .checkboxdiv {
+        margin-right: -19% !important;
+
     }
 }
 
@@ -584,6 +592,7 @@ Projet 3 - Clément Sentein
     font-size: 15px;
     max-width: 70px;
     min-width: 70px;
+    align-items: center;
 }
 
 .newdivrestaurantmobile {
@@ -1096,6 +1105,25 @@ Projet 3 - Clément Sentein
 
 .divsectionplat:hover .checkboxdiv {
     margin-right: 0 !important;
+}
+
+.divsectionplat:hover .h3divsectionplat {
+    width: revert;
+}
+
+.divsectionplat:hover .pdivsectionplat {
+    width: 220px;
+}
+
+.divsectionplat:hover .h3divsectionplat {
+    width: 270px;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px;
 }
 
 .checkboxdiv {
